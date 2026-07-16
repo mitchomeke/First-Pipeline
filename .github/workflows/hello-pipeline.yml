@@ -2,9 +2,9 @@ name: First Pipeline
 on: [push]
 
 jobs:
- say-hello:
-  runs-on: ubuntu-latest
-  steps:
+  say-hello:
+   runs-on: ubuntu-latest
+   steps:
     - name: Say Hello
-      run: echo "Hello! My CI/CD pipeline is working!"
-      
+      run: "CI/CD pipeline is working!"
+          
