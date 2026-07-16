@@ -5,6 +5,6 @@ jobs:
   say-hello:
    runs-on: ubuntu-latest
    steps:
-    - name: Say Hello
-      run: "CI/CD pipeline is working!"
-          
+     - name: Say Hello
+       run: "Hello My CI/CD pipeline is working!"
+   
